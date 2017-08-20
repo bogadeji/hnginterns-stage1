@@ -19,7 +19,6 @@ if ($conn->connect_error) {
 } 
 $sql = "SELECT id, Name, slack, github FROM name";
 $result = $conn->query($sql);
- //$result = mysqli_query($conn, "SELECT Name, Slack Username, Github Username, FROM names");
  
     // Checking if the records were found 
     if ($result) {
